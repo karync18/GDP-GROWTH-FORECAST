@@ -126,8 +126,8 @@ ggplotly(gdp_plot)
 **Financial metrics:** revenue, cost, equity, assets, cash, depreciation, earnings, shares, capital expenditure, sales, etc.
 
 **Constructed Accounting Ratios:**
-**Profitability: **Operating Profit Margin, Net Operating Profit After Tax (NOPAT), Return on Assets (ROA), Return on Equity (ROE)
-**Leverage: **Debt Ratio
+**Profitability:** Operating Profit Margin, Net Operating Profit After Tax (NOPAT), Return on Assets (ROA), Return on Equity (ROE)
+**Leverage:** Debt Ratio
 
 **Data Cleaning Steps:**
 1. Removed entries with missing year/quarter data
