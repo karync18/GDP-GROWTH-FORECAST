@@ -32,7 +32,7 @@ I started by building a base model using linear regression with only economic va
 My best-performing model was a regularized LASSO using Set 3 data (economic + market variables), achieving an RMSE of 1.08628. To assess the value of accounting information in GDP forecasting, I found that it didn’t significantly enhance model performance. The best accounting-based model—a non-regularized linear regression—had an RMSE of 1.42852, which is notably higher than the base model. Based on these results, I recommend incorporating market data over accounting data, as models using market information consistently performed better. This suggests that market variables are more useful than accounting variables for accurate GDP growth prediction.
 
 ## Library
-- load all necessary libraries first
+load all necessary libraries first
 ```R
 library(dplyr)
 library(tidyverse)
